@@ -1,0 +1,19 @@
+{
+  "name": "MyBoard",
+  "device_id": "esp8266sw",
+  "wifi": {
+    "ssid": "SSID",
+    "password": "PASSWORD"
+  },
+  "mqtt": {
+    "host": "raspberrypi",
+    "port": 1883,
+    "base_topic": "devices/",
+    "auth": false
+  },
+  "ota": {
+    "enabled": false,
+	"port": 9080,
+	"path": "/ota"
+  }
+}
